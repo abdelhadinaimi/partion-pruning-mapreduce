@@ -22,9 +22,19 @@ public class PartitionPruningOutput {
 
 	static {
 		CONTINENT_FROM_COUNTRY.put("fr", "EU");
+		CONTINENT_FROM_COUNTRY.put("gb", "EU");
+		CONTINENT_FROM_COUNTRY.put("ir", "EU");
+		CONTINENT_FROM_COUNTRY.put("sp", "EU");
+		CONTINENT_FROM_COUNTRY.put("it", "EU");
+		CONTINENT_FROM_COUNTRY.put("hu", "EU");
+		CONTINENT_FROM_COUNTRY.put("pl", "EU");
+		CONTINENT_FROM_COUNTRY.put("sw", "EU");
+		CONTINENT_FROM_COUNTRY.put("nl", "EU");
+		CONTINENT_FROM_COUNTRY.put("de", "EU");
 		CONTINENT_FROM_COUNTRY.put("tn", "AF");
 		CONTINENT_FROM_COUNTRY.put("dz", "AF");
-		CONTINENT_FROM_COUNTRY.put("de", "EU");
+		CONTINENT_FROM_COUNTRY.put("ma", "AF");
+		CONTINENT_FROM_COUNTRY.put("sa", "AF");
 		CONTINENT_FROM_COUNTRY.put("au", "AU");
 	}
 
@@ -71,7 +81,7 @@ public class PartitionPruningOutput {
 		}
 	}
 
-	public static void main(String[] args) throws Exception {
+	public void mains(String[] args) throws Exception {
 
 		Configuration conf = new Configuration();
 

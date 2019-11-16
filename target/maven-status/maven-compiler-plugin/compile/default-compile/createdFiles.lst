@@ -1,2 +1,9 @@
-META-INF/maven/bigdata/partitionpruning/pom.xml
-META-INF/maven/bigdata/partitionpruning/pom.properties
+bigdata/ContinentInputFormat.class
+bigdata/ContinentInputFormat$ContinentInputSplit.class
+bigdata/PartitionPruningOutput$ContinentsReducer.class
+bigdata/PartitionPruningOutput$ContinentsOutputMapper.class
+bigdata/PartitionPruningInput$ContinentsReducer.class
+bigdata/PartitionPruningInput.class
+bigdata/ContinentInputFormat$ContinentRecordReader.class
+bigdata/PartitionPruningOutput.class
+bigdata/PartitionPruningInput$ContinentsInputMapper.class

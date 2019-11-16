@@ -29,7 +29,7 @@
   			<configuration>
   				<archive>
   					<manifest>
-  						<mainClass>bigdata.PartitionPruningOutput</mainClass>
+  						<mainClass>bigdata.PartitionPruningInput</mainClass>
   					</manifest>
   				</archive>
   			</configuration>
